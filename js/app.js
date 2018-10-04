@@ -147,6 +147,7 @@ function stopTimer() {
 	if (timerRunning) {
 		timerRunning = false;
 		clearInterval(gameTimer);
+		timeDisplay.innerText = time;
 	}
 }
 
