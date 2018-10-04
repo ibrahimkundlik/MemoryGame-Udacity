@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Memory Game</title>
+	<meta content="" name="description">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet prefetch">
+	<link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet prefetch">
+	<link href="M:\Front End Web Dev\Memory Game\css\app.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header class="heading">
+			<h1>MEMORY GAME</h1>
+		</header>
+		<div class="popup">
+			<div class="winMssg">
+				<h2 class="mssg">Congratulations! You won the game!</h2>
+				<h2 class="mssg">You've earned <span id="starScore">3</span> <i class="fa fa-star"></i> rating!</h2>
+				<h3 class="mssg">You won the game in <span id="playTime"></span> seconds using <span id="moves"></span> moves.</h3><button class="button" id="playAgain">
+				<h3>Play Again</h3></button>
+			</div>
+		</div>
+		<section class="score-panel">
+			<ul class="stars">
+				<li><i class="fa fa-star"></i></li>
+				<li><i class="fa fa-star"></i></li>
+				<li><i class="fa fa-star"></i></li>
+			</ul><span class="moves">0</span> Moves
+			<div class="score_timer">
+				Time: <span class="timer">0</span> seconds
+			</div>
+			<div class="restart">
+				<i class="fa fa-repeat"></i>
+			</div>
+		</section>
+		<ul class="deck"></ul>
+	</div>
+	<script src="M:/Front%20End%20Web%20Dev/Memory%20Game/js/app.js">
+	</script>
+</body>
+</html>
