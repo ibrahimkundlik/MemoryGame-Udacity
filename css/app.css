@@ -98,7 +98,7 @@ h1 {
 .score-panel {
     text-align: left;
     width: 345px;
-    margin-bottom: 10px;
+    padding: 20px 0 20px 0;
 }
 
 .score-panel .stars {
