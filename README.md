@@ -10,6 +10,13 @@ At each turn:
 * If the cards do not match, both cards are flipped face down.
 The game ends once all cards have been correctly matched and a popup message appears giving the user a rating based on the moves taken and congratulates the user.
 
+## Game Functionality
+In the real-life game, players flip over cards to locate the pairs that match. The goal is to recreate this. These are the events that need to be handled:
+* Flipping cards
+* What happens when cards match
+* What happens when cards do not match
+* When the game finishes
+
 ## Game Behavior
 * Memory Game Logic-
 The game randomly shuffles the cards. A user wins once all cards have successfully been matched.
@@ -35,3 +42,8 @@ A README file is included detailing the game and all dependencies.
 Comments are present and effectively explain longer code procedure when necessary.
 * Code Quality-
 Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity JavaScript Style Guide.
+
+## Acknowledgements
+* jQuery, the feature-rich JavaScript library which saved my time.
+* Font Awesome, for the vector icons.
+* ES06 thanks for the template literal and for-of loop.
