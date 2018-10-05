@@ -1,5 +1,7 @@
 //Creating array of icons and declaring variables
-const icons = ["fa fa-diamond", "fa fa-diamond", "fa fa-paper-plane-o", "fa fa-paper-plane-o", "fa fa-anchor", "fa fa-anchor", "fa fa-bolt", "fa fa-bolt", "fa fa-cube", "fa fa-cube", "fa fa-leaf", "fa fa-leaf", "fa fa-bicycle", "fa fa-bicycle", "fa fa-bomb", "fa fa-bomb"];
+const icons1 = ["fa fa-diamond", "fa fa-paper-plane-o", "fa fa-anchor", "fa fa-bolt", "fa fa-cube", "fa fa-leaf", "fa fa-bicycle", "fa fa-bomb"];
+const icons2 = ["fa fa-diamond", "fa fa-paper-plane-o", "fa fa-anchor", "fa fa-bolt", "fa fa-cube", "fa fa-leaf", "fa fa-bicycle", "fa fa-bomb"];
+const icons = icons1.concat(icons2);
 const cardsContainer = document.querySelector(".deck");
 const winner = document.querySelector(".popup");
 let openedCards = [];
@@ -158,7 +160,7 @@ function resetTimer() {
 
 // Shuffle function
 function shuffle(array) {
-	var currentIndex = array.length,
+	let currentIndex = array.length,
 		temporaryValue, randomIndex;
 	while (currentIndex !== 0) {
 		randomIndex = Math.floor(Math.random() * currentIndex);
