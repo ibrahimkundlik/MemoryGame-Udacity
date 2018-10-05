@@ -46,4 +46,4 @@ Code is formatted with consistent, logical, and easy-to-read formatting as descr
 ## Acknowledgements
 * jQuery, the feature-rich JavaScript library which saved my time.
 * Font Awesome, for the vector icons.
-* ES06 thanks for the template literal and for-of loop.
+* ES6, for the template literal and for-of loop.
